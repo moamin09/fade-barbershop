@@ -1,2 +1,19 @@
-# fade-barbershop
-A modern and responsive barbershop website featuring online booking, services, gallery and contact sections.
+# Fade Barbershop
+
+A modern and responsive barbershop website built with HTML, CSS and JavaScript.
+
+## Features
+
+- Responsive design
+- Modern UI
+- Services section
+- Gallery
+- Pricing
+- Contact form
+- Online booking CTA
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
