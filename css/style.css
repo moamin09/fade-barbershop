@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.navbar .logo img {
+  padding-top: 10px;
+  max-width: 150px;
+  min-height: 100px;
+}
+
+.navbar {
+  background-color: #00000097;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 3px 50px;
+  z-index: 100;
+}
+
+.navbar nav a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.navbar nav a:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.CTA-button-nav button {
+  font-size: 15px;
+  color: white;
+  background-color: burlywood;
+  padding: 16px 25px;
+  border: none;
+  border-radius: 3px;
+  margin-right: auto;
+}
+
+.hero {
+  min-height: 100vh;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("../assets/images/Fade-barbershop-herophoto.png");
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  margin-left: 100px;
+  margin-bottom: 40%;
+}
+
+.fancyTD {
+  max-width: 500px;
+  height: 30px;
+}
