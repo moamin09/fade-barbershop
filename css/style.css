@@ -74,7 +74,7 @@ body {
     linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
     url("../assets/images/Fade-barbershop-herophoto.png");
 
-  background-size: fill;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
