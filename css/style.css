@@ -208,7 +208,7 @@ body {
 }
 
 .about-section .about-text .lineH {
-  margin-top: 20px;
+  margin: 20px 0;
   justify-self: baseline;
 }
 
