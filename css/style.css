@@ -247,9 +247,19 @@ body {
     margin: 20px auto;
   }
 
-  .navbar nav a:hover,
-  .navbar nav a.active {
-    padding-bottom: 1px;
+  .navbar nav a {
+    position: relative;
+  }
+
+  .navbar nav a.active::after,
+  .navbar nav a:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* afstand tot tekst */
+    width: 100%;
+    height: 1px;
+    background: burlywood;
   }
 
   .hero {
