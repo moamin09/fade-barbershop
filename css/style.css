@@ -194,10 +194,11 @@ body {
 
 .about-section {
   display: flex;
+  justify-content: center;
 }
 
 .about-section img {
-  margin: 10px 0 0 90px;
+  margin: 10px 0 0 30px;
   width: 520px;
 }
 
